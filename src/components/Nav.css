@@ -1,9 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Roboto", "sans-serif";
+}
+
+a:visited {
+    color: inherit;
+}
+
 .navbar {
     margin: 0 24px;
     display: flex;
     justify-content: space-between;
+    color: rgb(233, 45, 139);
+    font-weight: bold;
 }
 
 .nav_logo {
-    width: 120px;
+    width: 100px;
+}
+
+.nav_links {
+    display: flex;
+    list-style: none;
+    margin: 24px 12px;
+    gap: 2rem;
+    
+}
+
+.nav_link {
+  color: hotpink;
+}
+
+a {
+    text-decoration: none;
 }

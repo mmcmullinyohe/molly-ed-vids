@@ -6,8 +6,8 @@ function Nav() {
   return (
     <nav className="navbar">
       <img src={logo} alt="MM Logo" className="nav_logo" />
-      <ul className="nav-links">
-        <li><a href="/">Home</a></li>
+      <ul className="nav_links">
+        <li className="nav__link"><a href="/">Home</a></li>
         <li><a href="/videos">Videos</a></li>
         <li><a href="/about">About</a></li>
       </ul>
