@@ -6,7 +6,7 @@ const Home = () => {
     <div>
       <Nav />
       <div className="intro">
-        
+        Get ready to learn some exciting new skills through our video lessons and courses!
       </div>
     </div>
   )
