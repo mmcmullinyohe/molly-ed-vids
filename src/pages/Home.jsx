@@ -10,7 +10,7 @@ const Home = () => {
         Get ready to learn some exciting new skills through our video lessons and courses!
         </div>
         <div className="intro__img">
-          
+          <figure></figure>
         </div>
       </div>
     </div>
