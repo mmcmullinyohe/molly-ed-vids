@@ -5,8 +5,7 @@ const Footer = () => {
   return (
     <div>
       <div className="footer__container">
-        <div className="footer__links">
-          <ul>
+          <ul className="footer__links">
             <li className="footer__link">
               <a href="/">Home</a>
             </li>
@@ -17,7 +16,6 @@ const Footer = () => {
               <a href="/about">About</a>
             </li>
           </ul>
-        </div>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ const Videos = () => {
   return (
     <div>
       <Nav />
+      <Footer />
     </div>
   )
 }
