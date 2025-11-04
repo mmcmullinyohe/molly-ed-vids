@@ -10,5 +10,18 @@ font-family: "Roboto", "sans-serif";
 }
 
 .intro {
+    margin: 36px;
+    padding: 12px;
     display: flex;
+    justify-content: space-between;
+}
+
+img {
+    border-radius: 40%;
+}
+
+.intro__info {
+    color: rgb(233, 45, 139);
+    font-size: 30px;
+    font-family: "Lato";
 }
