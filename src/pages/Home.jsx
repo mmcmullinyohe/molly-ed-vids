@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from '../components/Nav'
 import Molly from '../assets/Molly.jpg'
 import './Home.css'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
           </figure>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
