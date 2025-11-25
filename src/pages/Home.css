@@ -31,7 +31,7 @@ font-family: "Roboto", "sans-serif";
 .wave-banner {
   position: relative;
   height: 200px;
-  margin-top: 2rem;
+  margin-top: -200px;
   overflow: hidden;
   /* no background gradient here anymore */
 }
