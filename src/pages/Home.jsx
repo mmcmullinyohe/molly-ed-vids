@@ -3,6 +3,7 @@ import Nav from '../components/Nav'
 import Molly from '../assets/Molly.jpg'
 import './Home.css'
 import Footer from '../components/Footer'
+import wave from '../assets/wave.svg'
 
 const Home = () => {
   return (
@@ -18,6 +19,12 @@ const Home = () => {
           </figure>
         </div>
       </div>
+          {/* Wavy light pink banner */}
+      <div className="wave-banner">
+  <img src={wave} alt="decorative wave" className="wave-banner-wave" />
+</div>
+
+
       <Footer />
     </div>
   )

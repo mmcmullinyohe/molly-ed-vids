@@ -1,0 +1,13 @@
+<svg viewBox="0 0 1440 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- pink that fades to transparent toward the bottom -->
+    <linearGradient id="pinkFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffc9e4" stop-opacity="1" />
+      <stop offset="100%" stop-color="#ffc9e4" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <path
+    fill="url(#pinkFade)"
+    d="M0,40L48,48C96,56,192,72,288,72C384,72,480,56,576,48C672,40,768,40,864,48C960,56,1056,72,1152,74.7C1248,77,1344,67,1392,61.3L1440,56L1440,160L0,160Z"
+  />
+</svg>

@@ -17,12 +17,32 @@ font-family: "Roboto", "sans-serif";
     height: 80vh;
 }
 
-img {
+.intro__img img {
     border-radius: 40%;
 }
+
 
 .intro__info {
     color: rgb(233, 45, 139);
     font-size: 30px;
     font-family: "Lato";
+}
+
+.wave-banner {
+  position: relative;
+  height: 200px;
+  margin-top: 2rem;
+  overflow: hidden;
+  /* no background gradient here anymore */
+}
+
+
+.wave-banner-wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none;
 }
