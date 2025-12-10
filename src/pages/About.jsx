@@ -23,6 +23,11 @@ const About = () => {
           intermediate level mathematics (middle school and high school up to
           Algebra 2). Please reach out to me for more information.
         </p>
+                <p>
+          In addition to working with students, I am happy to offer support to teachers. If you 
+          are new to the profession or just need someone to collaborate with and get additional
+          support, I would love to connet. 
+        </p>
 
         <p className="about-rates">
           I offer online tutoring through Google Meet at a rate of{" "}
@@ -40,6 +45,7 @@ const About = () => {
           <li>Algebra 2</li>
           <li>Geometry</li>
           <li>Homework Help</li>
+          <li>Educator Support</li>
         </ul>
 
       </main>
