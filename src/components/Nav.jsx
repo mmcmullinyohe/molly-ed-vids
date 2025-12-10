@@ -11,6 +11,9 @@ function Nav() {
         <li><a href="/booking">Schedule Now</a></li>
         <li><a href="/videos">Videos</a></li>
         <li><a href="/about">About</a></li>
+                <li>
+          <a href="mailto:mmcmullinyohe@gmail.com">Contact</a>
+        </li>
       </ul>
     </nav>
   );
