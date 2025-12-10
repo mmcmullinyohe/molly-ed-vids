@@ -11,7 +11,7 @@ const Home = () => {
       <Nav />
       <div className="intro">
         <div className="intro__info">
-        Get ready to learn some exciting new skills through our video lessons and courses!
+          Get ready to learn some exciting new skills through our video lessons and courses!
         </div>
         <div className="intro__img">
           <figure>
@@ -19,11 +19,11 @@ const Home = () => {
           </figure>
         </div>
       </div>
-          {/* Wavy light pink banner */}
-      <div className="wave-banner">
-  <img src={wave} alt="decorative wave" className="wave-banner-wave" />
-</div>
 
+      {/* Wavy light pink banner */}
+      <div className="wave-banner">
+        <img src={wave} alt="decorative wave" className="wave-banner-wave" />
+      </div>
 
       <Footer />
     </div>
@@ -31,3 +31,6 @@ const Home = () => {
 }
 
 export default Home
+
+
+

@@ -8,6 +8,7 @@ function Nav() {
       <img src={logo} alt="MM Logo" className="nav_logo" />
       <ul className="nav_links">
         <li className="nav__link"><a href="/">Home</a></li>
+        <li><a href="/booking">Schedule Now</a></li>
         <li><a href="/videos">Videos</a></li>
         <li><a href="/about">About</a></li>
       </ul>

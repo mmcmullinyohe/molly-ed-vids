@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+font-family: "Roboto", "sans-serif";
+color: rgb(233, 45, 139);
+}
+
+.booking-page {
+  max-width: 1100px;      /* keeps content from being too wide */
+  margin: 0 auto;         /* centers the whole block */
+  padding: 2rem;
+  text-align: center;     /* ✅ centers h1 and p */
+}
+
+.booking-page h1 {
+  margin-bottom: 0.5rem;
+}
+
+.booking-page p {
+  margin-bottom: 2rem;
+}

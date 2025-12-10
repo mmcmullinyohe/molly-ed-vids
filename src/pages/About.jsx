@@ -10,7 +10,7 @@ const About = () => {
       <div className="about">
 
       </div>
-      <Footer />
+     <Footer />
     </div>
   )
 }
