@@ -16,7 +16,7 @@ const Videos = () => {
       <Nav />
       <div className="videos-page">
         <h1 className="videos-title">Videos</h1>
-
+        <h2 className="videos-description">Coming Soon!</h2>
         <div className="videos-grid">
           {videos.map(video => (
             <div key={video.id} className="video-card">

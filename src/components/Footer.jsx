@@ -9,6 +9,7 @@ const Footer = () => {
             <li className="footer__link">
               <a href="/">Home</a>
             </li>
+            <li><a href="/booking">Schedule Now</a></li>
             <li>
               <a href="/videos">Videos</a>
             </li>
