@@ -9,7 +9,7 @@ const About = () => {
       <Nav />
 
       <main className="about">
-        <h1>Hello, I'm Molly!</h1>
+        <h1>Hello, I'm Molly!{"  "}<span class="wave">👋🏻</span></h1>
 
         <p>
           I have been an educator for 14 years and love to help people learn! I have experience teaching early childhood, elementary,

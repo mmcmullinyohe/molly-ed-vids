@@ -40,6 +40,24 @@
   font-size: 1.05rem;
 }
 
+.wave {
+    display: inline-block;
+    animation: animate-wave 500ms infinite;
+}
+
+@keyframes animate-wave {
+    0% {
+        transform: rotate(0);
+    }
+    50% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
 /* Optional: small screen tweaks */
 @media (max-width: 600px) {
   .about {
