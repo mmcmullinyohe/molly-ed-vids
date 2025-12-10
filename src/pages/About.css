@@ -1,3 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 .about {
-    height: 80vh;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem 4rem;
+  line-height: 1.7;
+}
+
+/* Heading */
+.about h1 {
+    font-family: "Corinthia", cursive;
+  text-align: center;
+  font-size: 5rem;
+  color: rgb(233, 45, 139); /* your pink */
+  margin-bottom: 2rem;
+}
+
+/* Paragraphs */
+.about p {
+  font-size: 1.05rem;
+  margin-bottom: 1.25rem;
+  color: #333;
+}
+
+/* Rates paragraph */
+.about-rates {
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+/* List of services */
+.about-list {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.about-list li {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+}
+
+/* Optional: small screen tweaks */
+@media (max-width: 600px) {
+  .about {
+    padding: 2rem 1.5rem 3rem;
+  }
+
+  .about h1 {
+    font-size: 3rem;
+  }
 }
