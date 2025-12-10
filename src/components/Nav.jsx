@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/MM_logo_simple.png";
 import "./Nav.css";
+import logo from "../assets/MM_logo_simple.png";
+
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ function Nav() {
   return (
     <nav className="navbar">
       <div className="nav__left">
-        <img src={logo} alt="MM Logo" className="nav_logo" />
+        <img src={logo} alt="123Learn Logo" className="nav_logo" />
       </div>
 
       {/* Hamburger button (only visible on mobile via CSS) */}
