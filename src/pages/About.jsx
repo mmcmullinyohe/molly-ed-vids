@@ -12,8 +12,7 @@ const About = () => {
         <h1>Hello, I'm Molly!</h1>
 
         <p>
-          I have been an educator for 14 years and recently transitioned out of
-          the classroom. I have experience teaching early childhood, elementary,
+          I have been an educator for 14 years and love to help people learn! I have experience teaching early childhood, elementary,
           middle school math, and high school math. I love teaching reading and
           helping students learn to love reading.
         </p>

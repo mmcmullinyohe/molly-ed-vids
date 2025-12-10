@@ -2,47 +2,98 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: "Roboto", "sans-serif";
+/* Page layout so footer stays at bottom */
+html, body, #root {
+  height: 100%;
 }
 
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-main {
+  flex: 1; /* pushes footer down */
+}
+
+/* Intro section */
 .intro {
-    margin: 36px;
-    padding: 12px;
-    display: flex;
-    justify-content: space-between;
-    height: 80vh;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* Heading */
+.intro__heading {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(233, 45, 139);
+  font-family: "Lato";
+  margin-bottom: 2rem;
+}
+
+/* Row with text + image */
+.intro__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Tagline */
+.intro__tagline {
+  font-size: 1.5rem;
+  color: rgb(233, 45, 139);
+  max-width: 1300px;
+}
+
+/* Image */
 .intro__img img {
-    border-radius: 40%;
+  max-width: 300px;
+  border-radius: 40%;
 }
 
-
-.intro__info {
-    color: rgb(233, 45, 139);
-    font-size: 30px;
-    font-family: "Lato";
-}
-
+/* Wave banner */
 .wave-banner {
   position: relative;
   height: 200px;
-  margin-top: -200px;
+  margin-top: 20px;
   overflow: hidden;
-  /* no background gradient here anymore */
 }
 
-
+/* Wave image */
 .wave-banner-wave {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: auto;
-  display: block;
   pointer-events: none;
+}
+
+/* Fade overlay */
+.wave-banner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px; /* controls how long the fade is */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 100%
+  );
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .intro__row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro__tagline {
+    max-width: none;
+  }
 }
