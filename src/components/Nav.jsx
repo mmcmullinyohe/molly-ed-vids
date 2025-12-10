@@ -1,27 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/MM_logo_simple.png";
 import "./Nav.css";
 
 function Nav() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => setIsOpen(prev => !prev);
+  const closeMenu = () => setIsOpen(false);
+
   return (
     <nav className="navbar">
-      <img src={logo} alt="MM Logo" className="nav_logo" />
-      <ul className="nav_links">
+      <div className="nav__left">
+        <img src={logo} alt="MM Logo" className="nav_logo" />
+      </div>
+
+      {/* Hamburger button (only visible on mobile via CSS) */}
+      <button
+        className="nav_toggle"
+        onClick={toggleMenu}
+        aria-label="Toggle navigation menu"
+      >
+        <span className="nav_toggle_bar"></span>
+        <span className="nav_toggle_bar"></span>
+        <span className="nav_toggle_bar"></span>
+      </button>
+
+      {/* Links */}
+      <ul className={`nav_links ${isOpen ? "nav_links--open" : ""}`}>
         <li className="nav__link">
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={closeMenu}>Home</Link>
         </li>
         <li>
-          <Link to="/booking">Schedule Now</Link>
+          <Link to="/booking" onClick={closeMenu}>Schedule Now</Link>
         </li>
         <li>
-          <Link to="/videos">Videos</Link>
+          <Link to="/videos" onClick={closeMenu}>Videos</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about" onClick={closeMenu}>About</Link>
         </li>
         <li>
-          <a href="mailto:mmcmullinyohe@gmail.com">Contact</a>
+          <a href="mailto:mmcmullinyohe@gmail.com" onClick={closeMenu}>
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
@@ -29,4 +51,3 @@ function Nav() {
 }
 
 export default Nav;
-
